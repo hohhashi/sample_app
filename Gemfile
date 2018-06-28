@@ -13,6 +13,10 @@ gem 'jbuilder',     '2.7.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'pry-doc'
+  gem 'pry-stack_explorer'
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
